@@ -1,20 +1,20 @@
-body {
+html, body {
     background: #d5e1ef; /* color de fondo*/
     box-sizing: border-box;      /* color de fondo*/   
     height: 100%;                /* alto al 100% del body*/
     margin: 0px;
     padding: 20px;             /*  Separación dev de sus bordes* */
-    
     text-align: center;
-    width: 30%;                /*Ancho al 100% del body*/  
+    width: 100%;                /*Ancho al 100% del body*/  
 }
 
 .card-conteiner {
     background: #ffffff;
     box-shadow: 0px 5px 20px #000; /* Sobra div*/
     border-radius: 20px;             /*Bordes redondos div*/
-    display: inline-block;           /*Bloque en linea*/
+    display: inline-block;           /*Bloque en linea se comporta como texto*/
     padding: 20px;                   /*Espacio del border del div body respecto al contendor */
+    max-width: 300px;
     overflow: hidden;                /*????*/         
 }
 
@@ -38,4 +38,8 @@ body {
 
 .card-conteiner p {
     font-size: 14px;
+}
+h1 {
+    /**white-space: nowrap; /* indica que solo sea una linea y evita que colapse*/
+    white-space: pre-line; /* indica que solo sea una linea y evita que colapse*/
 }
