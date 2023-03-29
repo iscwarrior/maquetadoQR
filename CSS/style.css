@@ -1,46 +1,26 @@
 html, body {
-    background: #d5e1ef;
-    /* color de fondo*/
-    box-sizing: border-box;
-    /* color de fondo*/
-    height: 100%;
-    /* alto al 100% del body*/
-    margin: 0px;
-    padding: 20px;
-    /*  Separación dev de sus bordes* */
+    background: #d5e1ef;   /* color de fondo*/
+    box-sizing: border-box;  /*  Separación dev de sus bordes* */ 
+    height: 100px;           /* alto al 100% del body*/
+    margin: 0px; 
+    padding: 5px;            /*  Separación dev de sus bordes* */
     text-align: center;
-    width: 30%;
-    /*Ancho al 100% del body*/
-    background: #d5e1ef; /* color de fondo*/
-    box-sizing: border-box;      /* color de fondo*/   
-    height: 100%;                /* alto al 100% del body*/
-    margin: 0px;
-    padding: 20px;             /*  Separación dev de sus bordes* */
-    text-align: center;
-    width: 100%;                /*Ancho al 100% del body*/  
-
+    width: 100px;                /*Ancho al 100% del body*/  
 }
 
 .card-conteiner {
-    background: #ffffff;
-    box-shadow: 0px 5px 20px #000;
-    /* Sobra div*/
-    border-radius: 20px;
-    /*Bordes redondos div*/
-    display: inline-block;
-    /*Bloque en linea*/
-    padding: 20px;
-    /*Espacio del border del div body respecto al contendor */
+    background: #ffffff;    
+    border-radius: 20px;             /*Bordes redondos div*/
+    box-shadow: 0px 5px 20px #000; /* Sobra div*/
+    display: inline-block;           /*Bloque en linea se comporta como texto*/
     overflow: hidden;
     /*????*/
     position: absolute;
-    max-width: 100%;
-    box-shadow: 0px 5px 20px #000; /* Sobra div*/
-    border-radius: 20px;             /*Bordes redondos div*/
-    display: inline-block;           /*Bloque en linea se comporta como texto*/
     padding: 20px;                   /*Espacio del border del div body respecto al contendor */
-    max-width: 300px;
-    overflow: hidden;                /*????*/         
+    max-height: 800px;
+    max-width: 500px;
+    overflow: hidden;                /*????*/   
+    
 }
 
 .card-conteiner .qr-conteiner {
@@ -63,7 +43,8 @@ html, body {
 
 .card-conteiner p {
     font-size: 14px;
-}
+ }
+ /*
 .titleG {
     background: orange;
     border-radius: 30px;
@@ -74,11 +55,11 @@ html, body {
     height: fit-content;
     width: auto;
     box-shadow: 0px 25px 25px #000;
-    /* Sobra div*/
+    /* Sobra div/
     font-size: 32px;
     z-index: 1; 
     left: 50%;
-    width: 100%;
+    width: 100%;} */
 
 h1 {
     /**white-space: nowrap; /* indica que solo sea una linea y evita que colapse*/
